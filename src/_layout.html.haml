@@ -1,0 +1,18 @@
+!!!
+%html
+
+  %head
+    %title= page.title || "boxdice.com.au"
+    %link{ :href=>"style.css", :rel=>"stylesheet", :type=>"text/css" }
+    ~ content_for[:head]
+
+  %body{:class => @body_class}
+
+    #header
+      ~ include("_header.html.haml")
+
+    #content
+      ~ yield
+
+    #footer
+      ~ include("_footer.html.haml")
