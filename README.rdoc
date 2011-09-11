@@ -1,0 +1,16 @@
+= pith_example
+
+Just playing with pith
+
+== Credits
+
+Pith: https://github.com/mdub/pith.git
+
+Example shameless stolen from https://github.com/mdub/dogbiscuit.org
+
+== Requirements
+
+You will probably need 
+
+* pith
+* haml
