@@ -9,18 +9,24 @@ body {
 
 
 #header {
+  color: black;
   background-color: white;
   padding: 10px;
 }
 
 #navigation {
   color: black;
+  a {
+    color: black;
+  }
 }
 
-a {
-  color: white;
+#content {
+  padding: 10px;
+  a {
+    color: white;
+  }
 }
-
 
 
  
